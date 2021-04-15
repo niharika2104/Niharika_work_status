@@ -3,10 +3,18 @@
 	padding: 0;
 	margin: 0;
 }
+body{
+	background-color: white;
+}
 .wrapper{
 	background: url(background.jpeg) no-repeat;
 	background-size: cover;
-	height: 100vh;
+	background-color: transparent;
+	margin-top: 120px;
+	height: 50vh;
+		float: right;
+		width: 480px;
+		padding: 30px;
 }
 .navbar{
 	position: fixed;
@@ -41,7 +49,7 @@
 }
 .wrapper .center{
 	position: absolute;
-	left: 50%;
+	left: 30%;
 	top: 55%;
 	transform: translate(-50%, -50%);
 	font-family: sans-serif;
@@ -49,27 +57,26 @@
 }
 .center h1{
 	color: black;
-	font-size: 70px;
-	width: 900px;
-	font-weight: bold;
-	text-align: center;
+	font-size: 50px;
+	width: 650px;
+	margin-left: 0px;
+	font-weight: 30px;
+	text-align: left;
+	background-color: goldenrod;
 }
 .center .buttons{
-	margin: 35px 280px;
+	margin: 25px 120px;
 }
-.buttons button{
-	height: 50px;
-	width: 280px;
-	font-size: 18px;
-	font-weight: 600;
-	color: #ffb3b3;
-	background: black;
-	outline: none;
-	cursor: pointer;
-	border: 1px solid black;
+.buttons button {
+	position: left;
+	top: 110%;
+	right: 180;
+	width: 220px;
+	transform: translate(-50%);
 	border-radius: 25px;
-	transition: .4s;
+	font-size: 20px;
+	background-color: coral;
 }
 .buttons button:hover{
-	background: #cc0000;
+	background: green;
 }
